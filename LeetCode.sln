@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{C7B1B721-DE00-43D5-BF49-DA37010C000F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTests", "UnitTests", "{2F505149-F1D5-4A93-A4BE-10F8B0D1FF48}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode.UnitTests", "tests\UnitTests\LeetCode.UnitTests\LeetCode.UnitTests.csproj", "{BED02FD3-A58B-4E68-B888-1AA01CD314A0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{58D392C3-BA3A-4A25-B10A-17BD95BC02E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode", "src\LeetCode\LeetCode.csproj", "{0708BD73-82FF-4D91-9E59-DAF22CD7291C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BED02FD3-A58B-4E68-B888-1AA01CD314A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BED02FD3-A58B-4E68-B888-1AA01CD314A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BED02FD3-A58B-4E68-B888-1AA01CD314A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BED02FD3-A58B-4E68-B888-1AA01CD314A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0708BD73-82FF-4D91-9E59-DAF22CD7291C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0708BD73-82FF-4D91-9E59-DAF22CD7291C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0708BD73-82FF-4D91-9E59-DAF22CD7291C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0708BD73-82FF-4D91-9E59-DAF22CD7291C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2F505149-F1D5-4A93-A4BE-10F8B0D1FF48} = {C7B1B721-DE00-43D5-BF49-DA37010C000F}
+		{BED02FD3-A58B-4E68-B888-1AA01CD314A0} = {2F505149-F1D5-4A93-A4BE-10F8B0D1FF48}
+		{0708BD73-82FF-4D91-9E59-DAF22CD7291C} = {58D392C3-BA3A-4A25-B10A-17BD95BC02E3}
+	EndGlobalSection
+EndGlobal
