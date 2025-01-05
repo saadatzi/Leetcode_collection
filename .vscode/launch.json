@@ -6,7 +6,7 @@
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
-            "program": "${workspaceFolder}/src/LeetCode.ValidParantheses/bin/Debug/net8.0/LeetCode.ValidParantheses.dll", // Change to your project's output path
+            "program": "${workspaceFolder}/src/LeetCode.ValidParantheses/bin/Debug/net9.0/LeetCode.ValidParantheses.dll", // Change to your project's output path
             "args": [],
             "cwd": "${workspaceFolder}/src/LeetCode.ValidParantheses",
             "stopAtEntry": false,
